@@ -11,13 +11,13 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: Theme Redefine
+  title: 制霸蛋餅統天下
   # Site subtitle
-  subtitle: Redefine Your Hexo Journey.
+  subtitle: fyc970823
   # Author name
-  author: The Redefine Team
+  author: fyc970823
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://fyc970823.github.io/transmit/
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: https://i.postimg.cc/JhDHk0tC/頭貼.jpg #/images/redefine-favicon.svg
   # Site logo
   logo: 
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: https://i.postimg.cc/Zqc0GN9T/頭貼.jpg #/images/redefine-avatar.svg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -100,7 +100,7 @@ global:
   open_graph:
     enable: true
     image: /images/redefine-og.webp  # default og:image
-    description: Hexo Theme Redefine, Redefine Your Hexo Journey.
+    description: 來看我網站!
   # Google Analytics
   google_analytics:
     enable: false # Whether to enable Google Analytics
@@ -131,13 +131,13 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    light: /images/lightbackground.png # light mode
+    dark: /images/darkbackground.png # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: 往蝦滑看更多
   # Home banner subtitle
   subtitle:
-    text: [] # subtitle text, array
+    text: ["我是蛋餅","眾所周知"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -171,17 +171,17 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links style
     style: default # default, reverse, center
     # Social links
     links:
       - icon: github # can also be "fa-brands fa-github"
-        url:
+        url: https://github.com/fyc970823
       - icon: twitter
         url:
       - icon: email
-        url: you@example.com
+        url: fyc970823@gmail.com
       - icon: telegram
         url:
       - icon: /images/custom-icon.svg
@@ -214,20 +214,26 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
-    # Archives: 
-    #   path: /archives 
-    #   icon: fa-regular fa-archive # can be empty
-    # Status: 
-    #   path: https://status.ohevan.com/
-    #   icon: fa-regular fa-chart-bar
-    # About: 
-    #   icon: fa-regular fa-user
-    #   submenus:
-    #     Me: /about
-    #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
-    #     Blog: https://ohevan.com
-    #     Friends: /friends
-    # Links: 
+    Archives: 
+      path: /archives 
+      icon: fa-regular fa-archive # can be empty
+    #Status: 
+    #  path: https://status.ohevan.com/
+    #  icon: fa-regular fa-chart-bar
+    About: 
+      icon: fa-regular fa-user
+      submenus:
+        Me: /about
+        Github: https://github.com/fyc970823
+        #Blog: https://ohevan.com
+        #Friends: /friends
+    Links: 
+      path: /links 
+      icon: fa-regular fa-link
+
+
+
+
     #   icon: fa-regular fa-link
     #   submenus:
     #     Link1: /link1
