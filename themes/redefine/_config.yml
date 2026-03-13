@@ -352,7 +352,7 @@ articles:
     # Whether to enable article recommendation
     enable: false
     # Article recommendation title
-    title: 推荐阅读
+    title: 推薦閱讀
     # Max number of articles to display
     limit: 3
     # Max number of articles to display mobile
@@ -525,16 +525,13 @@ developer:
 # DEVELOPER MODE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 links:
-  enable: true
-  banner_img: 
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
-  # 友站的成員項
-  # Member item of page
-  items:
-    - {
-      title: "郭10",
-      intro: "觀念考不到5級的115特選生",
-      link: https://yilinguo121.github.io/,
-      avatar: 
-      }
+  - links_category: 友站連結
+    links_list:
+      - name: 馮蛋餅
+        link: https://fyc970823.github.io/transmit/
+        avatar: https://i.postimg.cc/JhDHk0tC/頭貼.jpg
+        descr: 蛋餅沒有保存期限，因為神話不會過期
+      - name: 我的 GitHub
+        link: https://github.com/fyc970823
+        avatar: https://i.postimg.cc/Zqc0GN9T/頭貼.jpg
+        descr: 來看我的專案
