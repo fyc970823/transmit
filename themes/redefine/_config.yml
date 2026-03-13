@@ -524,14 +524,12 @@ developer:
   enable: false
 # DEVELOPER MODE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-links:
-  - links_category: 友站連結
-    links_list:
-      - name: 馮蛋餅
-        link: https://fyc970823.github.io/transmit/
-        avatar: https://i.postimg.cc/JhDHk0tC/頭貼.jpg
-        descr: 蛋餅沒有保存期限，因為神話不會過期
-      - name: 我的 GitHub
-        link: https://github.com/fyc970823
-        avatar: https://i.postimg.cc/Zqc0GN9T/頭貼.jpg
-        descr: 來看我的專案
+friends:
+  links:
+    - name: 馮蛋餅
+      link: https://fyc970823.github.io/transmit/
+      avatar: https://i.postimg.cc/JhDHk0tC/頭貼.jpg
+      descr: 蛋餅沒有保存期限
+  # 這裡最關鍵，確保下面這兩項是開啟的
+  enable: true
+  layout: friends
