@@ -234,7 +234,7 @@ navbar:
         #Blog: https://ohevan.com
         #Friends: /friends
     Links: 
-      path: /friends 
+      path: /links 
       icon: fa-regular fa-link
 
 
