@@ -2,7 +2,6 @@
 title: 關於我
 date: 2026-03-12 23:00:00
 layout: about
-comment: true
 ---
 ## 自我介紹
 * 網名：馮蛋餅(蛋餅)

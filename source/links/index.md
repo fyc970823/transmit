@@ -2,8 +2,9 @@
 title: 友站
 date: 2020-05-13 14:16:07
 template: links
-comment: true
 ---
+
+
 # 本站訊息
 
 ``` bash
@@ -14,7 +15,7 @@ comment: true
 ```
 
 # 加入訊息
-在網站加入本站後，在下面留言。格式如下：
+在網站加入本站後，在下面留言，格式如下：
 
 ``` bash
   - name: 你的名稱
@@ -22,3 +23,4 @@ comment: true
     description: 簡介
     avatar: 頭像連結
 ```
+留言故障中，請過幾天再回來。
