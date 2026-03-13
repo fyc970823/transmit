@@ -217,6 +217,12 @@ navbar:
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
+    Categories: 
+      path: /categories 
+      icon: fa-regular fa-folder
+    Tags: 
+      path: /tags 
+      icon: fa-regular fa-tags
     #Status: 
     #  path: https://status.ohevan.com/
     #  icon: fa-regular fa-chart-bar
@@ -260,15 +266,15 @@ home:
     announcement: # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-      # Archives: 
-      #   path: /archives 
-      #   icon: fa-regular fa-archive # can be empty
-      # Tags: 
-      #   path: /tags 
-      #   icon: fa-regular fa-tags # can be empty
-      # Categories: 
-      #   path: /categories 
-      #   icon: fa-regular fa-folder # can be empty
+    #  Archives: 
+    #    path: /archives 
+    #    icon: fa-regular fa-archive # can be empty
+    #  Tags: 
+    #    path: /tags 
+    #    icon: fa-regular fa-tags # can be empty
+    #  Categories: 
+    #    path: /categories 
+    #    icon: fa-regular fa-folder # can be empty
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
@@ -488,7 +494,7 @@ plugins:
 # Docs: https://redefine-docs.ohevan.com/page_templates
 page_templates:
   # Friend Links page column number
-  friends_column: 2
+  friends_column: 3
   # Tags page style
   tags_style: blur # blur, cloud
   # Masonry page batch size
@@ -517,3 +523,18 @@ developer:
   # Whether to enable developer mode (only for developers who want to modify the theme source code, not for ordinary users)
   enable: false
 # DEVELOPER MODE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+
+links:
+  enable: true
+  banner_img: 
+  banner_img_height: 60
+  banner_mask_alpha: 0.3
+  # 友站的成員項
+  # Member item of page
+  items:
+    - {
+      title: "郭10",
+      intro: "觀念考不到5級的115特選生",
+      link: https://yilinguo121.github.io/,
+      avatar: 
+      }
