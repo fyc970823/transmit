@@ -366,58 +366,58 @@ articles:
 
 # COMMENT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/posts/comment
-comment:
-  # Whether to enable comment
-  enable: true
-  # Comment system
-  system: waline # waline, gitalk, twikoo, giscus, utterances, artalk
-  # System configuration
-  config:
-    # Waline comment system. See https://waline.js.org/
-    waline:
-      serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
-      lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
-      emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
-      recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
-      turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
-      reaction: false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
-    # Gitalk comment system. See https://github.com/gitalk/gitalk
-    gitalk:
-      clientID: # GitHub Application Client ID
-      clientSecret: # GitHub Application Client Secret
-      repo: # GitHub repository
-      owner: # GitHub repository owner
-      proxy: # GitHub repository proxy
-    # Twikoo comment system. See https://twikoo.js.org/
-    twikoo:
-      version: 1.6.10 # Twikoo version, do not modify if you dont know what it is
-      server_url: # Twikoo server URL. e.g. https://example.example.com
-      region: # Twikoo region. can be empty
-    # Giscus comment system. See https://giscus.app/
-    giscus:
-      repo: # Github repository name e.g. EvanNotFound/hexo-theme-redefine
-      repo_id: # Github repository id
-      category: # Github discussion category
-      category_id: # Github discussion category id
-      mapping: pathname # Which value to use as the unique identifier for the page. e.g. pathname, url, title, og:title. DO NOT USE og:title WITH PJAX ENABLED since pjax will not update og:title when the page changes
-      strict: 0 # Whether to enable strict mode. e.g. 0, 1
-      reactions_enabled: 1 # Whether to enable reactions. e.g. 0, 1
-      emit_metadata: 0 # Whether to emit metadata. e.g. 0, 1
-      lang: en # Giscus language. e.g. en, zh-CN, zh-TW
-      input_position: bottom # Place the comment box above/below the comments. e.g. top, bottom
-      loading: lazy # Load the comments lazily
-    # Artalk comment system. See https://artalk.js.org/
-    artalk:
-      server: # Artalk server URL. e.g. https://artalk.example.com
-      site: # Site name shown in Artalk admin (should match server-side site config)
-    # Utterances comment system. See https://utteranc.es/
-    utterances:
-      repo: # GitHub repository name e.g. owner/repo (Issues must be enabled)
-      issue_term: pathname # pathname, url, title, og:title (recommended: pathname for single-page mode)
-      issue_number: # Use a specific issue number instead of issue_term
-      label: # Optional label for created issues
-      theme_light: github-light # Light theme
-      theme_dark: github-dark # Dark theme
+# comment:
+#  # Whether to enable comment
+#  enable: true
+#  # Comment system
+#  system: waline # waline, gitalk, twikoo, giscus, utterances, artalk
+#  # System configuration
+#  config:
+#    # Waline comment system. See https://waline.js.org/
+#    waline:
+#      serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
+#      lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
+#      emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
+#      recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
+#      turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
+#      reaction: false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
+#    # Gitalk comment system. See https://github.com/gitalk/gitalk
+#    gitalk:
+#      clientID: # GitHub Application Client ID
+#      clientSecret: # GitHub Application Client Secret
+#      repo: # GitHub repository
+#      owner: # GitHub repository owner
+#      proxy: # GitHub repository proxy
+#    # Twikoo comment system. See https://twikoo.js.org/
+#    twikoo:
+#      version: 1.6.10 # Twikoo version, do not modify if you dont know what it is
+#      server_url: # Twikoo server URL. e.g. https://example.example.com
+#      region: # Twikoo region. can be empty
+#    # Giscus comment system. See https://giscus.app/
+#    giscus:
+#      repo: # Github repository name e.g. EvanNotFound/hexo-theme-redefine
+#      repo_id: # Github repository id
+#      category: # Github discussion category
+#      category_id: # Github discussion category id
+#      mapping: pathname # Which value to use as the unique identifier for the page. e.g. pathname, url, title, og:title. DO NOT USE og:title WITH PJAX ENABLED since pjax will not update og:title when the page changes
+#      strict: 0 # Whether to enable strict mode. e.g. 0, 1
+#      reactions_enabled: 1 # Whether to enable reactions. e.g. 0, 1
+#      emit_metadata: 0 # Whether to emit metadata. e.g. 0, 1
+#      lang: en # Giscus language. e.g. en, zh-CN, zh-TW
+#      input_position: bottom # Place the comment box above/below the comments. e.g. top, bottom
+#      loading: lazy # Load the comments lazily
+#    # Artalk comment system. See https://artalk.js.org/
+#    artalk:
+#      server: # Artalk server URL. e.g. https://artalk.example.com
+#      site: # Site name shown in Artalk admin (should match server-side site config)
+#    # Utterances comment system. See https://utteranc.es/
+#    utterances:
+#      repo: # GitHub repository name e.g. owner/repo (Issues must be enabled)
+#      issue_term: pathname # pathname, url, title, og:title (recommended: pathname for single-page mode)
+#      issue_number: # Use a specific issue number instead of issue_term
+#      label: # Optional label for created issues
+#      theme_light: github-light # Light theme
+#      theme_dark: github-dark # Dark theme
 # COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -525,3 +525,19 @@ developer:
 # DEVELOPER MODE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # 注意！最左邊不要有空格，跟 navbar 齊平
+comment:
+  enable: true
+  system: giscus
+  config:         # <--- 必須多加這一層
+    giscus:       # <--- 縮排要對齊
+      repo: fyc970823/transmit
+      repo_id: R_kgDORlSv8w
+      category: Announcements
+      category_id: DIC_kwDORlSv884C4UTw
+      mapping: pathname
+      strict: '0'
+      reactions_enabled: '1'
+      emit_metadata: '0'
+      input_position: bottom
+      theme: preferred_color_scheme
+      lang: zh-TW
