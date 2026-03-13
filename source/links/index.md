@@ -24,4 +24,3 @@ comment: true
     description: 簡介
     avatar: 頭像連結
 ```
-留言故障中，請過幾天再回來。
