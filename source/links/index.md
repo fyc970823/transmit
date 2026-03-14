@@ -16,11 +16,11 @@ comment: true
 ```
 
 # 加入訊息
-在網站加入本站後，在下面留言，格式如下：
+在加入本站後，在下面留言，格式如下：
 
 ``` bash
-  - name: 你的名稱
-    link: 你的傳送連結
-    description: 簡介
-    avatar: 頭像連結
+  - name: #你的名稱
+    link: #你的傳送連結
+    description: #簡介
+    avatar: #頭像連結
 ```
