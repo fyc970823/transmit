@@ -10,7 +10,7 @@ comment: true
 
 ``` bash
   - name: 蛋餅
-    link: https://yilinguo121.github.io
+    link: https://fyc970823.github.io
     description: 蛋餅沒有保存期限，因為神話不會過期
     avatar: https://i.postimg.cc/Zqc0GN9T/頭貼.jpg
 ```
