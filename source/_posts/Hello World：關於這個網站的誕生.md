@@ -11,6 +11,7 @@ tags:
 math: true
 mermaid: false
 hide: false
+cover: /picture/網站的誕生.png
 date: 2026-03-14 14:54:00
 excerpt: 我第一個個網已出現在世界中...
 ---
