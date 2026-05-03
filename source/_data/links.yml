@@ -1,0 +1,57 @@
+#- links_category: Elites
+#  has_thumbnail: true
+#  list:
+#      - name: EvanNotFound's Blog
+#        link: https://ohevan.com
+#        description: 用香港记者的速度更新文章
+#        avatar: https://evan.beee.top/avatar.png
+#        thumbnail: https://img1.imgtp.com/2023/06/19/Jegvz84P.png # has_thumbnail 为 true 时才需要
+
+- links_category: 我的朋友們
+  has_thumbnail: false
+  list:
+      - name: 郭10
+        link: https://www.yilin0121.com/
+        description: 觀念考不到5級的115特選生
+        avatar: https://yilinguo121.github.io/avatar/avatar.webp
+      - name: 淳
+        link: https://chuen666666.github.io
+        description: 群除我佬，我是肺霧
+        avatar: https://i.postimg.cc/TPfTBR9M/chuen.png
+      - name: 咩咩咩
+        link: https://www.instagram.com/ziyun_1117
+        description: 咩ouo
+        avatar: https://i.postimg.cc/Jh2dZxtj/meiii.jpg
+      - name: 祈
+        link: https://www.instagram.com/yo.07_42
+        description: 來自帕克塔特星球ㄉ外星生物
+        avatar: https://i.postimg.cc/hjxbhWwQ/chi.jpg
+      - name: 唐唐正正
+        link: https://www.instagram.com/tang_.0302
+        description: 要是我是一隻鴿子，我也要大便在人類頭上
+        avatar: https://i.postimg.cc/g2xChGHw/tong.jpg      
+      - name: ゴブリン
+        link: https://www.instagram.com/77_you_dont
+        description: 
+        avatar: https://i.postimg.cc/wvBQ2Zd7/liou-yu-xin.jpg
+      - name: 曼巴
+        link: https://www.instagram.com/youjuinyoujuin?igsh=MXNmZDljc25tbG1wOQ%3D%3D&utm_source=qr
+        description: 肘飛
+        avatar: https://i.postimg.cc/1thHS5qc/ED41210D-5D40-472E-B6E3-E2CC4D66C08B.jpg
+      - name: 鴿鴿鴿
+        link: https://www.instagram.com/daniel132469
+        description: 要不要吃🕊️🥚
+        avatar: https://i.postimg.cc/gjbBgHDt/unnamed.jpg
+      - name: hungyi
+        link: https://www.instagram.com/hungyi1001
+        description: 我要火烤猶太人
+        avatar: https://i.postimg.cc/Hn2kMMfY/hongyi.jpg
+      - name: 鯊瓜
+        link: https://www.instagram.com/yan_ting_xun1207
+        description: 我只是一隻傻瓜
+        avatar: https://i.postimg.cc/Vk3md4dk/ytx.jpg
+      - name: George
+        link: https://www.instagram.com/cyh_.1113
+        description: 就讀三民高中，喜歡用數學計算機率統計
+        avatar: https://i.postimg.cc/5tyV6tgJ/yihong.jpg
+
