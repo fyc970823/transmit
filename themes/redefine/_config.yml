@@ -362,10 +362,6 @@ articles:
     placeholder: /images/wallhaven-wqery6-light.webp
     # Skip directory
     skip_dirs: []
-  math:
-    enable: true
-    specific: true
-    engine: mathjax
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 # FOOTER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/footer
